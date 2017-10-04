@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>helloworld</name>
+<widget id="com.phonegap.ToDo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>To-Do</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Simple ToDo App using HTML5, Javascript, CSS
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="quoc.tran@okstate.edu" href="http://github.com/kennethtran91">
+Kenneth Tran
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
