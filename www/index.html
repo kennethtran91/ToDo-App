@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>To Do</title>
 <style>
@@ -22,7 +22,7 @@ ul {
   padding: 0;
 }
 
-h2{
+h2 {
   font-family: Arial, sans-serif;
 }
 
@@ -94,6 +94,16 @@ ul li.checked::before {
   text-align: center;
 }
 
+.top-header {
+  background-color: #FFF;
+  padding: 10px 40px;
+
+}
+
+.nav{
+  background-color: #FFF
+}
+
 /* Clear floats after the header */
 .header:after {
   content: "";
@@ -129,6 +139,7 @@ input {
 </style>
 </head>
 <body>
+
 
 <div id="myDIV" class="header">
   <h2 style="margin:5px">THINGS I NEED TO DO</h2>
@@ -197,6 +208,7 @@ function newElement() {
   }
 }
 </script>
+
 
 </body>
 </html>
